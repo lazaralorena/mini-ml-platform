@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./serve:/app/serve  # monta apenas a pasta com o modelo
+    command: uvicorn serve.app:app --host 0.0.0.0 --port 8000
+
+  train:
+    build: .
+    volumes:
+      - ./serve:/app/serve
+    command: python train/train.py
+
+  test:
+    build: .
+    volumes:
+      - ./serve:/app/serve
+    command: pytest ./tests
