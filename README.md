@@ -11,18 +11,18 @@ A API está preparada para consumir modelos treinados localmente. Neste exemplo,
 ## Estrutura do Projeto
 
 mini-ml-platform/
-├── train/              # Código para treinar o modelo
-│   └── train.py
-├── serve/              # API REST com FastAPI
-│   ├── app.py
-│   ├── init.py
-│   └── model.pkl       # Modelo salvo após o treinamento
-├── tests/              # Testes automatizados com pytest
-│   └── test_api.py
-├── Dockerfile          # Imagem Docker da aplicação
-├── docker-compose.yml  # Orquestração dos containers
-├── requirements.txt    # Lista de dependências
-└── README.md           # Instruções e informações do projeto
+├── train/ # Código para treinar o modelo
+│ └── train.py
+├── serve/ # API REST com FastAPI
+│ ├── app.py
+│ ├── init.py
+│ └── model.pkl # Modelo salvo após o treinamento
+├── tests/ # Testes automatizados com pytest
+│ └── test_api.py
+├── Dockerfile # Imagem Docker da aplicação
+├── docker-compose.yml # Orquestração dos containers
+├── requirements.txt # Lista de dependências
+└── README.md # Instruções e informações do projeto
 
 ## O que o código faz
 
@@ -37,7 +37,7 @@ mini-ml-platform/
 ### Clonar o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/lazaralorena/mini-ml-platform.git
 cd mini-ml-platform
 ```
 
