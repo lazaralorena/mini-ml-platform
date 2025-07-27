@@ -37,7 +37,7 @@ mini-ml-platform/
 ### Clonar o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/lazaralorena/mini-ml-platform.git
 cd mini-ml-platform
 ```
 
