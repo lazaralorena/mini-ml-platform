@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode settings
+.vscode/
+
+# Model and artifacts
+*.pkl
+
+# Docker
+*.log
+*.pid
+*.seed
+*.swp
+*.swo
+
+# macOS / Windows / Linux system files
+.DS_Store
+Thumbs.db
+
+# Python wheel / build / dist
+build/
+dist/
+*.egg-info/
